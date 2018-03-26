@@ -45,20 +45,168 @@ body{
     left: 50%;
     /*tranform position no longer to parent element but to element itself*/
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .heading-primary{
     color: #fff;
     text-transform: uppercase;
+
+    /*fixes slight shaking of animation at end*/
+    backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 .heading-primary-main{
     display: block;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 .heading-primary-sub{
     display: block;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+
+    /*same as above 3 lines - can call same animation function to any element*/
+    animation: moveInRight 1s ease-out;
 }
+@keyframes moveInLeft {
+    /*start*/
+    0%{
+        opacity: 0;
+        /*start some distance from left with negative value*/
+        transform: translateX(-100px);
+    }
+    /*end pop back*/
+    80%{
+        transform: translateX(10px);
+    }
+    /*end*/
+    100%{
+        opacity: 1;
+        /*back to original position*/
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    /*start*/
+    0%{
+        opacity: 0;
+        /*start some distance from right with positive value*/
+        transform: translateX(100px);
+    }
+    /*end pop back*/
+    80%{
+        transform: translateX(-10px);
+    }
+    /*end*/
+    100%{
+        opacity: 1;
+        /*back to original position*/
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom {
+    0%{
+        opacity: 0;
+        /*start some distance from bottom with positive value*/
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        /*back to original position*/
+        transform: translate(0);
+    }
+}
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    /*is an inline element bkus its just text so display as inline-block to set paddings for top and bottom*/
+    display: inline-block;
+    border-radius: 100px;
+
+    /*set initial state so can be a animated in relation to it below with transform */
+    transition: all .2s;
+    /*for after effect to make relative to this btn element*/
+    position: relative;
+}
+.btn:hover{
+    /*move up with negative*/
+    transform: translateY(-3px);
+    /*x y blur color*/
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    /*loose some shadown as btn goes down*/
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #777;
+}
+.btn::after{
+    content: ""; /*required for after to work*/
+    height: 100%; /* 100% of btn*/
+    width: 100%;
+    border-radius: 100px;
+
+    /*position behind btn*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    /*set to initial state*/
+    transition: all .4s;
+}
+.btn-white::after{
+    background-color: #fff;
+}
+.btn:hover::after{
+    /*increase element*/
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated{
+    /* animation: name, duration, timing, delay */
+    animation: moveInBottom .5s ease-out .75s;
+    /*will apply animation function at 0% b4 animation starts*/
+    animation-fill-mode: backwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
