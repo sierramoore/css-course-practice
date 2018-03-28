@@ -7,16 +7,27 @@ Dark green: #28b485
 
 block elements create line breaks b4 and after
 */
-*{
+*,
+*::after,
+*::before{
     margin: 0;
     padding: 0;
+    /*forcing inheritence on box-sizing in body*/
+    box-sizing: inherit;
 }
+/*1 rem will be 10px - divide all pixels by 10 and that will be rem */
+html{
+    /*not 10px so user can change font size*/
+    font-size: 62.5%;
+}
+
 body{
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
+    box-sizing: border-box;
 }
 .header{
     height: 95vh;
@@ -31,11 +42,11 @@ body{
 }
 .logo-box{
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 .logo{
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box{
@@ -53,13 +64,13 @@ body{
 
     /*fixes slight shaking of animation at end*/
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 .heading-primary-main{
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -67,9 +78,9 @@ body{
 }
 .heading-primary-sub{
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 17.4px;
+    letter-spacing: 1.75rem;
 
     /*same as above 3 lines - can call same animation function to any element*/
     animation: moveInRight 1s ease-out;
@@ -79,11 +90,11 @@ body{
     0%{
         opacity: 0;
         /*start some distance from left with negative value*/
-        transform: translateX(-100px);
+        transform: translateX(-10rem);
     }
     /*end pop back*/
     80%{
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
     /*end*/
     100%{
@@ -97,11 +108,11 @@ body{
     0%{
         opacity: 0;
         /*start some distance from right with positive value*/
-        transform: translateX(100px);
+        transform: translateX(10rem);
     }
     /*end pop back*/
     80%{
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
     /*end*/
     100%{
@@ -114,7 +125,7 @@ body{
     0%{
         opacity: 0;
         /*start some distance from bottom with positive value*/
-        transform: translateY(30px);
+        transform: translateY(3rem);
     }
 
     100%{
@@ -128,10 +139,10 @@ body{
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     /*is an inline element bkus its just text so display as inline-block to set paddings for top and bottom*/
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
 
     /*set initial state so can be a animated in relation to it below with transform */
     transition: all .2s;
@@ -142,12 +153,12 @@ body{
     /*move up with negative*/
     transform: translateY(-3px);
     /*x y blur color*/
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
 }
 .btn:active{
     transform: translateY(-1px);
     /*loose some shadown as btn goes down*/
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .btn-white{
@@ -158,7 +169,7 @@ body{
     content: ""; /*required for after to work*/
     height: 100%; /* 100% of btn*/
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
 
     /*position behind btn*/
     position: absolute;
