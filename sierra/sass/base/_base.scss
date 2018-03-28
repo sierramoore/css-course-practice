@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  //forcing inheritence on box-sizing in body
+  box-sizing: inherit;
+}
+//1 rem will be 10px - divide all pixels by 10 and that will be rem
+html{
+  //not 10px so user can change font size
+  // defines what 1rem is
+  font-size: 62.5%;
+}
+
+body{
+  box-sizing: border-box;
+}

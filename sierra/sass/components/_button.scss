@@ -1,0 +1,66 @@
+.btn {
+  &:link,
+  &:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    //is an inline element bkus its just text so display as inline-block to set paddings for top and bottom
+    display: inline-block;
+    border-radius: 10rem;
+
+    //set initial state so can be a animated in relation to it below with transform
+    transition: all .2s;
+    //for after effect to make relative to this btn element
+    position: relative;
+  }
+  &:hover{
+    //move up with negative
+    transform: translateY(-3px);
+    //x y blur color
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+
+    &::after{
+      //increase element
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+  &:active{
+    transform: translateY(-1px);
+    //loose some shadown as btn goes down
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+  }
+
+  &--white{
+    background-color: $color-white;
+    color: $color-grey-dark;
+
+    &::after{
+      background-color: $color-white;
+    }
+  }
+
+  &::after{
+    content: ""; //required for after to work
+    height: 100%; // 100% of btn
+    width: 100%;
+    border-radius: 10rem;
+
+    //position behind btn
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    //set to initial state
+    transition: all .4s;
+  }
+
+  &--animated {
+    // animation: name, duration, timing, delay
+    animation: moveInBottom .5s ease-out .75s;
+    //will apply animation function at 0% b4 animation starts
+    animation-fill-mode: backwards;
+  }
+
+}

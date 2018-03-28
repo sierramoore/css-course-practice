@@ -1,0 +1,43 @@
+@keyframes moveInLeft {
+  //start
+  0%{
+    opacity: 0;
+    //start some distance from left with negative value
+    transform: translateX(-10rem);
+  }
+  //end pop back
+  80%{
+    transform: translateX(1rem);
+  }
+  //end
+  100%{
+    opacity: 1;
+    //back to original position
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    //start some distance from right with positive value
+    transform: translateX(10rem);
+  }
+  80%{
+    transform: translateX(-1rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0%{
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
