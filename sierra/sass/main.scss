@@ -1,0 +1,233 @@
+
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  //forcing inheritence on box-sizing in body
+  box-sizing: inherit;
+}
+//1 rem will be 10px - divide all pixels by 10 and that will be rem
+html{
+  //not 10px so user can change font size
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-light, 0.8),
+          rgba($color-primary-dark, 0.8)),
+  url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    //relation to parent element
+    top: 40%;
+    left: 50%;
+    //tranform position no longer to parent element but to element itself
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.heading-primary{
+  color: $color-white;
+  text-transform: uppercase;
+
+  //fixes slight shaking of animation at end
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main{
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  &--sub{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+
+    //same as above 3 lines - can call same animation function to any element
+    animation: moveInRight 1s ease-out;
+  }
+
+}
+
+@keyframes moveInLeft {
+  //start
+  0%{
+    opacity: 0;
+    //start some distance from left with negative value
+    transform: translateX(-10rem);
+  }
+  //end pop back
+  80%{
+    transform: translateX(1rem);
+  }
+  //end
+  100%{
+    opacity: 1;
+    //back to original position
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    //start some distance from right with positive value
+    transform: translateX(10rem);
+  }
+  80%{
+    transform: translateX(-1rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0%{
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn {
+  &:link,
+  &:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    //is an inline element bkus its just text so display as inline-block to set paddings for top and bottom
+    display: inline-block;
+    border-radius: 10rem;
+
+    //set initial state so can be a animated in relation to it below with transform
+    transition: all .2s;
+    //for after effect to make relative to this btn element
+    position: relative;
+  }
+  &:hover{
+    //move up with negative
+    transform: translateY(-3px);
+    //x y blur color
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+
+    &::after{
+      //increase element
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+  &:active{
+    transform: translateY(-1px);
+    //loose some shadown as btn goes down
+    box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+  }
+
+  &--white{
+    background-color: $color-white;
+    color: $color-grey-dark;
+
+    &::after{
+      background-color: $color-white;
+    }
+  }
+
+  &::after{
+    content: ""; //required for after to work
+    height: 100%; // 100% of btn
+    width: 100%;
+    border-radius: 10rem;
+
+    //position behind btn
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    //set to initial state
+    transition: all .4s;
+  }
+
+  &--animated {
+    // animation: name, duration, timing, delay
+    animation: moveInBottom .5s ease-out .75s;
+    //will apply animation function at 0% b4 animation starts
+    animation-fill-mode: backwards;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
