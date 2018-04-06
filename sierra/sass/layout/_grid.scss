@@ -1,0 +1,12 @@
+.row{
+  //1140px is a standard - so divide by 10 and use rem
+  max-width: $grid-width;
+  background-color: #5643fa;
+  //trick to center a block element inside another block element
+  margin: 0 auto;
+  margin-bottom: $gutter-vertical;
+
+  //remove margin below last element
+  &:not()
+
+}
