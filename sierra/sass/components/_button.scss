@@ -12,6 +12,7 @@
     transition: all .2s;
     //for after effect to make relative to this btn element
     position: relative;
+    font-size: $default-font-size;
   }
   &:hover{
     //move up with negative
@@ -64,3 +65,43 @@
   }
 
 }
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+    transition: all .2s;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    // smaller shadow
+    box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    // back to original position
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

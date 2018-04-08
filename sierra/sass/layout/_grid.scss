@@ -1,7 +1,6 @@
 .row{
   //1140px is a standard - so divide by 10 and use rem
   max-width: $grid-width;
-  background-color: #c5c5c5;
   //trick to center a block element inside another block element
   margin: 0 auto;
 
@@ -16,7 +15,6 @@
   // ^ START with 'col-' // * is for all that contain "class-part-of-name" // $ is for all that ends with "class-name"
   [class^="col-"]{
     float: left;
-    background-color: #8644a6;
 
     &:not(:last-child){
       margin-right: $gutter-horizontal;

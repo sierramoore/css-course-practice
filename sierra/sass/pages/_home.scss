@@ -1,0 +1,6 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  //know gap from poly-clip longest point - smallest point to move up this section to match
+  margin-top: -20vh;
+}
