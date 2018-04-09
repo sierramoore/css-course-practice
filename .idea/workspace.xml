@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b9035e8-cdc7-4e44-a7fa-3f52787423de" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/icon-font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/hero-small.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/hero.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-1x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-small-1x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-small-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-1-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-2-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-3-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/video.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/video.webm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_animations.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_utilities.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_bg-video.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_button.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_card.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_composition.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_feature-box.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_popup.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_story.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_navigation.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/npm-debug.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/pages/_home.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/icon-font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.comp.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.concat.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.prefix.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/hero-small.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/hero.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-1x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-small-1x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-small-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-1-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-2-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-3-large.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/video.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/video.webm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_animations.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_utilities.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_bg-video.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_button.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_card.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_composition.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_feature-box.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_form.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_popup.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_story.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_navigation.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/npm-debug.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/pages/_home.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.comp.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.prefix.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/back.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-10.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-11.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-12.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-13.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-14.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-4.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-5.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-6.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-7.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-8.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-9.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/hero.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-4.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-5.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-6.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-bbc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-bi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-forbes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-techcrunch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/sprite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/story-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/story-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/img/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_features.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_gallery.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_homes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_realtors.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_sidebar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_story.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/back.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-10.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-11.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-12.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-13.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-14.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-4.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-5.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-6.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-7.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-8.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-9.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/hero.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-4.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-5.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-6.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-bbc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-bi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-forbes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-techcrunch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-3.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/sprite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/story-1.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/story-2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_features.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_gallery.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_header.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_homes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_realtors.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_sidebar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_story.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.comp.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.prefix.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/aircraft-take-off.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/bookmark.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/chat.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/chevron-thin-right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/home.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/key.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/location-pin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/magnifying-glass.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/map.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/star.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/chevron-thin-right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/sprite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_components.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/chevron-thin-right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/sprite.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/text.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Trillo/starter/sass/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/npm-fixes.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sierra/css/style.css" afterPath="$PROJECT_DIR$/sierra/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/sierra/index.html" afterPath="$PROJECT_DIR$/sierra/index.html" />
+      <change beforePath="$PROJECT_DIR$/slides-students-C04.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vscode-setup.md" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sierra/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sierra/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-594">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sierra/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/npm-fixes.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sierra/index.html" />
+        <option value="$PROJECT_DIR$/sierra/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="573" />
+    <option name="y" value="23" />
+    <option name="width" value="944" />
+    <option name="height" value="981" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Unit testingJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b9035e8-cdc7-4e44-a7fa-3f52787423de" name="Default" comment="" />
+      <created>1523233812103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523233812103</updated>
+      <workItem from="1523233814443" duration="376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="376000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="573" y="23" width="944" height="981" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/npm-fixes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/img/logo-white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/img/hero.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
