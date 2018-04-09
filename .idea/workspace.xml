@@ -2,273 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b9035e8-cdc7-4e44-a7fa-3f52787423de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/fonts/linea-basic-10.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/icon-font.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/hero-small.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/hero.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-small-1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-green-small-2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/logo-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-1-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-2-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-3-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/nat-9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/video.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/img/video.webm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/abstracts/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_animations.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/base/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_bg-video.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_button.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_composition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_feature-box.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_form.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_popup.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/components/_story.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_header.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/layout/_navigation.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/npm-debug.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/after-S05/sass/pages/_home.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/fonts/linea-basic-10.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/icon-font.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.comp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.concat.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/css/style.prefix.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/hero-small.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/hero.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-small-1x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-green-small-2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/logo-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-1-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-2-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-3-large.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/nat-9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/video.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/img/video.webm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/abstracts/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_animations.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/base/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_bg-video.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_button.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_composition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_feature-box.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_form.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_popup.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/components/_story.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_header.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/layout/_navigation.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/npm-debug.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Natours/final-after-S06/sass/pages/_home.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.comp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/css/style.prefix.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/back.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-10.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-11.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-12.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-13.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-14.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-4.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-5.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-6.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-7.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-8.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/gal-9.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/hero.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-4.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-5.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/house-6.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-bbc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-bi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-forbes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo-techcrunch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/realtor-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/story-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/story-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/img/text.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_features.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_gallery.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_header.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_homes.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_realtors.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_sidebar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_story.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/_typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/final/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/back.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-10.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-11.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-12.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-13.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-14.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-4.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-5.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-6.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-7.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-8.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/gal-9.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/hero.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-4.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-5.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/house-6.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-bbc.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-bi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-forbes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo-techcrunch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/realtor-3.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/story-1.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/story-2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/img/text.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_features.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_gallery.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_header.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_homes.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_realtors.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_sidebar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_story.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/_typography.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Nexter/starter/sass/main.scss" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sierra/sass/components/_feature-box.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.comp.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/css/style.prefix.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/aircraft-take-off.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/bookmark.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/chat.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/chevron-thin-right.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/home.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/key.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/location-pin.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/magnifying-glass.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/map.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/SVG/star.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/chevron-thin-right.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/hotel-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/text.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/img/user.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_base.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_components.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/_layout.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/final/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/chevron-thin-right.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/hotel-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/sprite.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/text.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/img/user.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Trillo/starter/sass/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/npm-fixes.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/sierra/css/style.css" afterPath="$PROJECT_DIR$/sierra/css/style.css" />
       <change beforePath="$PROJECT_DIR$/sierra/index.html" afterPath="$PROJECT_DIR$/sierra/index.html" />
-      <change beforePath="$PROJECT_DIR$/slides-students-C04.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vscode-setup.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sierra/sass/main.scss" afterPath="$PROJECT_DIR$/sierra/sass/main.scss" />
+      <change beforePath="$PROJECT_DIR$/sierra/sass/pages/_home.scss" afterPath="$PROJECT_DIR$/sierra/sass/pages/_home.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -282,24 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sierra/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            <state relative-caret-position="235">
+              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -308,18 +36,52 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sierra/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="312">
+              <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+              <folding>
+                <marker date="1523245249381" expanded="true" signature="4134:4314" ph="{...}" />
+                <marker date="1523245249381" expanded="true" signature="4665:4668" ph="{...}" />
+                <marker date="1523245249381" expanded="true" signature="4778:5007" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_feature-box.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sierra/sass/components/_feature-box.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sierra/.gitignore">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sierra/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sierra/sass/pages/_home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sierra/sass/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -334,9 +96,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/npm-fixes.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sierra/index.html" />
         <option value="$PROJECT_DIR$/sierra/css/style.css" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sierra/sass/main.scss" />
+        <option value="$PROJECT_DIR$/sierra/sass/components/_feature-box.scss" />
+        <option value="$PROJECT_DIR$/sierra/index.html" />
+        <option value="$PROJECT_DIR$/sierra/sass/pages/_home.scss" />
       </list>
     </option>
   </component>
@@ -345,7 +110,6 @@
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
-    <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
@@ -353,10 +117,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/sierra/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="573" />
+    <option name="x" value="622" />
     <option name="y" value="23" />
-    <option name="width" value="944" />
+    <option name="width" value="1058" />
     <option name="height" value="981" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -459,6 +226,46 @@
               <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
               <item name="sierra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="css-course-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="css-course-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="sierra" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -466,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -498,15 +305,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523233812103</updated>
-      <workItem from="1523233814443" duration="376000" />
+      <workItem from="1523233814443" duration="4668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376000" />
+    <option name="totallyTimeSpent" value="4668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="573" y="23" width="944" height="981" extended-state="0" />
+    <frame x="622" y="23" width="1058" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -517,11 +324,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17580341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -529,7 +337,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -556,28 +363,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sierra/img/logo-white.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sierra/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sierra/img/hero.jpg">
@@ -585,18 +373,94 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sierra/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sierra/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sierra/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/css/fonts/linea-basic-10.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/css/icon-font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <marker date="1523245249381" expanded="true" signature="4134:4314" ph="{...}" />
+            <marker date="1523245249381" expanded="true" signature="4665:4668" ph="{...}" />
+            <marker date="1523245249381" expanded="true" signature="4778:5007" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/sass/components/_feature-box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/sass/abstracts/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sierra/sass/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>

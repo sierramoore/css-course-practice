@@ -4,3 +4,25 @@
   //know gap from poly-clip longest point - smallest point to move up this section to match
   margin-top: -20vh;
 }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, 0.8),
+                  rgba($color-primary-dark, 0.8)),
+  url(../../img/nat-4.jpg);
+  background-size: cover;
+
+  //tilts background upwards
+  transform: skewY(-7deg);
+
+  // move tilted image upwards
+  margin-top: -10rem;
+
+  // and all direct children (wich is only row for now) (// if was all children each element and their children (like text) would be tilted too)
+  & > * {
+    transform: skewY(7deg);
+  }
+
+}
