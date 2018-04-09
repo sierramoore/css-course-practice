@@ -1,0 +1,173 @@
+.card {
+  //define perspective on parent on which u want to transform --the lower the value the more dramtic
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 52rem;
+
+  &__side {
+    // give same hieght as parent to fix perspective that is lost with position absolute
+    height: 52rem;
+    transition: all .8s ease;
+
+    //position them on top and back of cards of each other - elements start fitting to thier width (of text)so fix with width prop
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    //hides back part of element
+    backface-visibility: hidden;
+    border-radius: 3px;
+    // fixes img from overlapping parent
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      // back side starts flipped
+      transform: rotateY(180deg);
+
+      &-1{
+        background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+      }
+
+      &-2{
+        background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+      }
+
+      &-3{
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+      }
+    }
+  }
+
+
+  //when u hover the card thats when we want the side card effect to take place
+  &:hover &__side--front {
+    // negative to keep a continuous flipin same animation
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    //flip back to original position
+    transform: rotateY(0);
+  }
+
+  // FRONT SIDE STYLING
+  &__picture {
+    background-size: cover;
+    height: 23rem;
+    // blends gradient with image --new prop unavaliable in some browsers - can do in photoshop first for universal
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    //fix slight rounded borders on cards
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    &--1 {
+      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+      url(../../img/nat-5.jpg);
+    }
+
+    &--2 {
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+      url(../../img/nat-6.jpg);
+    }
+
+    &--3 {
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
+      url(../../img/nat-7.jpg);
+    }
+  }
+
+    &__heading {
+      font-size: 2.8rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      text-align: right;
+      color: $color-white;
+      position: absolute;
+      top: 12rem;
+      right: 2rem;
+      width: 75%;
+      z-index: 1;
+
+    }
+
+
+    &__heading-span {
+      padding: 1rem 1.5rem;
+      // seperate paddings styles between "the sea" and "explorer" with clone it adds padding to both boxes around text
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+
+      &--1 {
+        background-image: linear-gradient(to right bottom,
+                rgba($color-secondary-light, .85),
+                rgba($color-secondary-dark, .85));
+      }
+      &--2 {
+        background-image: linear-gradient(to right bottom,
+                rgba($color-primary-light, .85),
+                rgba($color-primary-dark, .85));
+      }
+      &--3 {
+        background-image: linear-gradient(to right bottom,
+                rgba($color-tertiary-light, .85),
+                rgba($color-tertiary-dark, .85));
+      }
+    }
+
+  &__details {
+    padding: 3rem;
+
+    ul {
+      list-style: none;
+      width: 80%;
+      //center block element inside a block element
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
+        }
+      }
+    }
+  }
+
+  // BACK SIDE STYLING
+  &__cta{
+    position: absolute;
+    // center with absolute position by moving 50% down -- 50% of the parent elements width to the left -- transform back to center of with -50% width and -50% height of element now (not parent) to put it back up
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //gave width and center to align button in middle to stop btn from adapting to cta width
+    width: 90%;
+    text-align: center;
+  }
+
+  &__price-box {
+    text-align: center;
+    color: $color-white;
+    margin-bottom: 8rem;
+  }
+
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+
+}

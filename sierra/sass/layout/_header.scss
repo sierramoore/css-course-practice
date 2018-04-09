@@ -9,6 +9,8 @@
   background-position: top;
   position: relative;
 
+  // x y for each corner going clockwise
+  -webkit-background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo {
