@@ -8,7 +8,7 @@
   &__side {
     // give same hieght as parent to fix perspective that is lost with position absolute
     height: 52rem;
-    transition: all .8s ease;
+    transition: all 1.5s ease;
 
     //position them on top and back of cards of each other - elements start fitting to thier width (of text)so fix with width prop
     position: absolute;
