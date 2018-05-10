@@ -2,10 +2,19 @@
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
-  background-color: $color-white;
+  background-color: rgba($color-white, .6);
   border-radius: 3px;
   padding: 6rem;
+  padding-left: 9rem;
   font-size: $default-font-size;
+  transform: skewX(-12deg);
+
+  // get img and text (all direct children) and skew them in normal position
+  // css cant currently have two transforms props applying at same time
+  // so have to put this prop in all child elements
+  //& > * {
+  //  transform: skew(12deg);
+  //}
 
   &__shape {
     width: 15rem;
@@ -22,6 +31,52 @@
     clip-path: circle(50% at 50% 50%);
 
     // best way to deal with space for floated element is use transform to add space
-    transform: translateX(-3rem);
+    transform: translateX(-3rem) skew(12deg);
+    position: relative;
   }
-}≤
+
+  // flexible img always need width
+  &__img {
+    // img is inside shape which has height of 15rem so height 100% refers to 15rem
+    // not width bkus img is wider than its height so it wont fill circle
+    height: 100%;
+    //move img more twords center and use scale to zoom 140%
+    transform: translateX(-4rem) scale(1.4);
+    // fixes strange bugs (this case dimaond skewed image)
+    backface-visibility: hidden;
+    // slow the zoom effect for hover
+    transition: all .5s;
+  }
+
+  &__text {
+    transform: skew(12deg);
+  }
+  // intitial state to hidden
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+
+    // add to stop sutle shaking at end of text animation
+    backface-visibility: hidden;
+  }
+
+  //as soon as story is hovered change caption
+  &:hover &__caption{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  &:hover &__img {
+    // zoom out image to original state (100%)
+    transform: translateX(-4rem) scale(1);
+    // blur slightly then darken image a bit with lower than 100% values
+    filter: blur(3px) brightness(80%);
+  }
+}

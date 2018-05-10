@@ -86,7 +86,6 @@
                 </div>
 
                 <div class="col-1-of-4">
-                    <!--using seperate class to add additional hover effects and stlyes to basic grid layout-->
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-compass"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Meet Nature</h3>
@@ -96,7 +95,6 @@
                 </div>
 
                 <div class="col-1-of-4">
-                    <!--using seperate class to add additional hover effects and stlyes to basic grid layout-->
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-map"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
@@ -106,7 +104,6 @@
                 </div>
 
                 <div class="col-1-of-4">
-                    <!--using seperate class to add additional hover effects and stlyes to basic grid layout-->
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-heart"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
@@ -242,6 +239,15 @@
         </section>
 
         <section class="section-stories">
+            <div class="bg-video">
+                <!--autoplay sliently and continually -- has two formats to work on more browsers else text to show not supported-->
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/video.mp4" type="video/mp4">
+                    <source src="img/video.webm" type="video/webm">
+                    Your browser is not supported
+                </video>
+            </div>
+
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     We make people genuinely happy
@@ -251,6 +257,8 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
+                        <img src="img/nat-8.jpg" class="story__img" alt="person on tour">
+                        <figcaption class="story__caption">Amy Garret</figcaption>
 
                     </figure>
                     <div class="story__text">
@@ -260,6 +268,26 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate deleniti expedita inventore nemo, nostrum nulla placeat porro quaerat recusandae voluptas voluptate!</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/nat-9.jpg" class="story__img" alt="person on tour">
+                        <figcaption class="story__caption">Francis Adams</figcaption>
+
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            WOW! My life is completely differnt now
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate deleniti expedita inventore nemo, nostrum nulla placeat porro quaerat recusandae voluptas voluptate!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn-text">Read more stories &rarr;</a>
             </div>
 
         </section>
