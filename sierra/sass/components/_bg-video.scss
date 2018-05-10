@@ -1,0 +1,20 @@
+// container for video to be fullscreen
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  // behind all other elements
+  z-index: -1;
+  opacity: .15;
+  // fix videos extra width on sides
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    // fills entire parent element any excess will be cut off plus maintains aspect ratio
+    object-fit: cover;
+  }
+}
