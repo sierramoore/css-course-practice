@@ -9,10 +9,32 @@
 //1 rem will be 10px - divide all pixels by 10 and that will be rem
 html{
   //not 10px so user can change font size
-  // defines what 1rem is
+  // makes 1rem  = 10px
   font-size: 62.5%;
+
+  //@include respond-phone {
+  //  font-size: 50%;
+  //}
+
+
+  @include respond(tab-land) {  // width < 1200?
+    font-size: 56.25%; // for 1rem to be 9px -> 9/16 = 56.25%
+  }
+  // need this order ALWAYS HAVE LARGER ONES BEFORE SMALLER -> if mobile first its the opposite
+  @include respond(tab-port) { // width < 900?
+    font-size: 50%;  // for 1rem to be 8px -> 8/16 = 50%
+  }
+  @include respond(big-desktop) {
+    font-size: 75%;    // for 1rem to be 9px -> 12/16 = 75%
+  }
 }
 
 body{
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+
 }

@@ -13,6 +13,12 @@
   -webkit-background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
+  @include respond(phone){
+    // change angle on header for phone
+    -webkit-background-clip: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
   &__logo {
     height: 3.5rem;
   }

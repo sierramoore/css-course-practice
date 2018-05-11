@@ -33,6 +33,10 @@
     &::-webkit-input-placeholder {
       color: $color-grey-dark-2;
     }
+
+    @include respond(tab-port){
+      width: 100%;
+    }
   }
 
   &__label {
@@ -60,6 +64,11 @@
     width: 49%;
     // put side by side with inline-block(which doesnt create line breaks like blocks do)
     display: inline-block;
+
+    @include respond(tab-port){
+      width: 100%;
+      margin-bottom: 2rem;
+    }
   }
 
   &__radio-input {

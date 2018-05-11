@@ -16,6 +16,16 @@
   //  transform: skew(12deg);
   //}
 
+  @include respond(tab-port){
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+  }
+
+  @include respond(phone){
+    transform: skewX(0);
+  }
+
   &__shape {
     width: 15rem;
     height: 15rem;
@@ -32,6 +42,10 @@
     // best way to deal with space for floated element is use transform to add space
     transform: translateX(-3rem) skew(12deg);
     position: relative;
+
+    @include respond(phone){
+      transform: translateX(-3rem) skewX(0);
+    }
   }
 
   // flexible img always need width
@@ -49,6 +63,10 @@
 
   &__text {
     transform: skew(12deg);
+
+    @include respond(phone){
+      transform: skewX(0);
+    }
   }
   // intitial state to hidden
   &__caption {
