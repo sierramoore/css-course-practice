@@ -1,5 +1,5 @@
 .DS_Store
-.idea
+.idea/*
 Natours/.DS_Store
 node_modules
 

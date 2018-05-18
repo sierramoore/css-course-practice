@@ -4,7 +4,7 @@
                   to right bottom,
                   rgba($color-primary-light, 0.8),
                   rgba($color-primary-dark, 0.8)),
-  url(../../img/hero.jpg);
+  url(../../img/hero-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -12,6 +12,18 @@
   // x y for each corner going clockwise
   -webkit-background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  // dpi = dots per inch 192dpi is the resolution of apple's retina screen -high res often used for reference
+  @media (min-resolution: 192dpi) and (min-width: 37.5em),
+          (min-width: 125em){
+    // when res is higher than 192dpi AND <= 600px OR the with is <= 1200
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary-light, 0.8),
+                    rgba($color-primary-dark, 0.8)),
+    url(../../img/hero.jpg);
+    // large img is 2000 x 2000 small is 1200 x 720
+  }
 
   @include respond(phone){
     // change angle on header for phone
