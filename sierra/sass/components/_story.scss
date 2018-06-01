@@ -30,18 +30,24 @@
     width: 15rem;
     height: 15rem;
     float: left;
-    // shape area around it (the text) first is size then at exactly center horizontally and vertically
-    // only works if is floated and has defined height and width
-    -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%);
-
-    //make img a circle
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
 
     // best way to deal with space for floated element is use transform to add space
     transform: translateX(-3rem) skew(12deg);
     position: relative;
+    overflow: hidden;
+
+    @supports (-webkit-clip-path: circle(50% at 50% 50%))  or (clip-path: circle(50% at 50% 50%)) {
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      // shape area around it (the text) first is size then at exactly center horizontally and vertically
+      // only works if is floated and has defined height and width
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      shape-outside: circle(50% at 50% 50%);
+
+      // if supported dont need 50% border radius as applied above when not supported
+      border-radius: 0;
+    }
 
     @include respond(phone){
       transform: translateX(-3rem) skewX(0);

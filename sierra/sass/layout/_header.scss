@@ -1,5 +1,5 @@
 .header {
-  height: 95vh;
+  height: 85vh;
   background-image: linear-gradient(
                   to right bottom,
                   rgba($color-primary-light, 0.8),
@@ -13,8 +13,17 @@
   -webkit-background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
+  // doesnt work in old firefox so above will be applied else if it works below applies
+  @supports (clip-path: polygon(0 0))  or (-webkit-clip-path: polygon(0 0)) {
+    -webkit-background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 95vh;
+  }
+
   // dpi = dots per inch 192dpi is the resolution of apple's retina screen -high res often used for reference
+  // min-resolution: 192dpi => doesnt work in safari use as on second line 2 means 2x screen
   @media (min-resolution: 192dpi) and (min-width: 37.5em),
+          (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
           (min-width: 125em){
     // when res is higher than 192dpi AND <= 600px OR the with is <= 1200
     background-image: linear-gradient(

@@ -16,6 +16,7 @@
     top: 0;
     left: 0;
     //hides back part of element
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     // fixes img from overlapping parent
