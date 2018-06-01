@@ -1,0 +1,130 @@
+///////////////////
+////// LOGO //////////
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;
+}
+
+///////////////////
+////// SEARCH //////////
+.search {
+  flex: 0 0 40%;
+
+  // centers search icon (nested flex item)
+  display: flex;
+  align-items: center;
+  // makes search input expand from both sides
+  justify-content: center;
+
+  &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--grey-light-2);
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all .2s;
+
+    // move search icon to be inside of input
+    margin-right: -3.25rem;
+
+    &:focus {
+      outline: none;
+      width: 100%;
+      background-color: var(--grey-light-3);
+    }
+
+    // change color of placeholder
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: var(--grey-light-4);
+    }
+  }
+
+  // siblings using adjacent selector
+  &__input:focus + &__btn {
+    background-color: var(--grey-light-3);
+  }
+
+  &__btn {
+    border: none;
+    background-color: var(--grey-light-2);
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    // change color of svg
+    fill: var(--grey-dark-3);
+  }
+}
+
+
+///////////////////
+////// USER NAVIGATION //////////
+.user-nav {
+  // occupy all space
+  align-self: stretch;
+
+  // flex item is a flex container (nested again)
+  display: flex;
+  align-items: center;
+
+  // all direct children
+  & > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+
+    display: flex;
+    // align on cross axis (vertically)
+    //3rd nested flex header is flex, search is flex, now icon-box is too
+    align-items: center;
+  }
+
+  & > *:hover {
+    background-color: var(--grey-light-2);
+  }
+
+  &__icon-box {
+    position: relative;
+  }
+
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    fill: var(--grey-dark-2);
+  }
+
+  &__notification {
+    font-size: .8rem;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: #fff;
+    position: absolute;
+    top: 1.5rem; right: 1.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+
+}
