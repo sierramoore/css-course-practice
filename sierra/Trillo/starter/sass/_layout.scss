@@ -26,11 +26,16 @@
   background-color: var(--grey-dark-1);
 
   flex: 0 0 18%;
+
+  //nest flex to make icons at top and footer on bottom w/ space-between
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
-  //background-color: var(--grey-light-SVG);
   background-color: pink;
+  height: 80rem;
   // occupy the remaining 82% space (-sidebar)
   flex: 1;
 }
