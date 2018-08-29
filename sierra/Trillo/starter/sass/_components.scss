@@ -136,11 +136,26 @@
   list-style: none;
   margin-top: 3.5rem;
 
+
+  @media only screen and (max-width: $bp-large) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: .5rem;
+
+      @media only screen and (max-width: $bp-large) {
+        margin-bottom: 0;
+      }
+    }
+
+    // all nav items occupy same space
+    @media only screen and (max-width: $bp-large) {
+      flex: 1;
     }
   }
 
@@ -184,6 +199,11 @@
 
     display: flex;
     align-items: center;
+
+    @media only screen and (max-width: $bp-large) {
+      justify-content: center;
+      padding: 2rem;
+    }
   }
 
   &__icon {
@@ -202,6 +222,11 @@
   color: var(--grey-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  // remove
+  @media only screen and (max-width: $bp-large) {
+    display: none;
+  }
 }
 
 ////////////////////////
@@ -391,7 +416,8 @@
   }
 
   &__friends {
-
+    // keep photos next to each other all the time
+    display: flex;
   }
 
   &__photo {
@@ -404,7 +430,7 @@
 
     //overlap images
     &:not(:last-child) {
-      margin-right: -1.5rem;
+      margin-right: -2rem;
     }
   }
 }
@@ -418,6 +444,11 @@
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
 
   &__text {
     margin-bottom: 2rem;
@@ -477,6 +508,10 @@
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 1.5rem;
