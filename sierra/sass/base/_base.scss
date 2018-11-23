@@ -36,5 +36,10 @@ body{
   @include respond(tab-port) {
     padding: 0;
   }
+}
 
+// for when a user highlights text on page
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }

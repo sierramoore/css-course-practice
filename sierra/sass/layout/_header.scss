@@ -22,7 +22,7 @@
 
   // dpi = dots per inch 192dpi is the resolution of apple's retina screen -high res often used for reference
   // min-resolution: 192dpi => doesnt work in safari use as on second line 2 means 2x screen
-  @media (min-resolution: 192dpi) and (min-width: 37.5em),
+  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
           (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
           (min-width: 125em){
     // when res is higher than 192dpi AND <= 600px OR the with is <= 1200

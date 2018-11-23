@@ -161,7 +161,6 @@
     color: $color-white;
     margin-bottom: 8rem;
   }
-
   &__price-only {
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -173,7 +172,9 @@
 
   ////
 
-  @include respond(tab-port){
+  //only screen and (hover: none) -> on ipad,phone, or something with no hover
+  @media only screen and (max-width: 56em),
+    only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;
