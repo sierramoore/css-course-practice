@@ -1,4 +1,36 @@
 .features {
-  background-color: $color-grey-light-2;
   grid-column: center-start / center-end;
+
+  margin: 15rem 0;
+
+  // nested grid (grid item is also a grid with its own items)
+  display: grid;
+  // 3 equally sized columns with grid gap
+  //grid-template-columns: repeat(3, 1fr);
+  // auto-fit will collapse columns as per specified min and max widths
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 6rem;
+  align-items: start; // align items at top of container not stretch which is default
+}
+// grid items of features
+.feature {
+  // if used flexbox it would have added margins and added extra complexity
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  // want rows to be size of content so no need to define them
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem;
+
+  // grid items of feature
+  &__icon {
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1 / span 2; // -1 is the end of EXPLICIT grid
+    transform: translateY(-1rem); // center icon w/ text manually
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
 }
