@@ -10,6 +10,10 @@
   justify-items: center;
   grid-row-gap: 2rem;
 
+  // make realtors full width
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
 
   // grid container
   &__list {
@@ -20,6 +24,15 @@
     grid-row-gap: 5vh;
     // align text with img
     align-items: center;
+
+    // make realtors in one row
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+    // make realtors back to column
+    @media only screen and (max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {
