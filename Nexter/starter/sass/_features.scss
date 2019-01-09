@@ -4,17 +4,29 @@
   margin: 15rem 0;
 
   // nested grid (grid item is also a grid with its own items)
-  display: grid;
-  // 3 equally sized columns with grid gap
-  //grid-template-columns: repeat(3, 1fr);
-  // auto-fit will collapse columns as per specified min and max widths
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 6rem;
-  align-items: start; // align items at top of container not stretch which is default
+  @supports (display: grid) {
+    display: grid;
+    // 3 equally sized columns with grid gap
+    //grid-template-columns: repeat(3, 1fr);
+    // auto-fit will collapse columns as per specified min and max widths
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 6rem;
+    align-items: start; // align items at top of container not stretch which is default
+  }
 }
 // grid items of features
 .feature {
+  // fallback for older browsers //
+  float: left;
+  width: 33.3333%;
+  margin-bottom: 6rem;
+  ////////////////////////
+
   // if used flexbox it would have added margins and added extra complexity
+  @supports (display: grid) {
+    width: auto;
+    margin-bottom: 0;
+  }
   display: grid;
   grid-template-columns: min-content 1fr;
   // want rows to be size of content so no need to define them
